@@ -3,9 +3,9 @@
 .container {
   display: flex;
   justify-content: center;
-  background-color: green;
   align-items: center;
   height: 100vh;
+  background-color: green;
 }
 
 .card {
@@ -25,6 +25,7 @@
 .card-number {
   font-size: 90px;
   display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   justify-content: center;
 }
 
