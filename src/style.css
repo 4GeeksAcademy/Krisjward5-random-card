@@ -6,11 +6,17 @@
   align-items: center;
   height: 100vh;
   background-color: green;
+  flex-direction: column;
 }
 
 .card {
   width: 18rem;
   border-radius: 20px;
+}
+
+.spade,
+.club {
+  color: black;
 }
 
 .heart,
@@ -39,4 +45,8 @@
   display: flex;
   justify-content: flex-start;
   margin: auto;
+}
+
+.button {
+  margin-top: 5rem;
 }
