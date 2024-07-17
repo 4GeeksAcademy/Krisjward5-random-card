@@ -48,3 +48,5 @@ window.onload = generateRandomCard;
 
 const randomCardGenButton = document.querySelector(".new-card-button");
 randomCardGenButton.addEventListener("click", generateRandomCard);
+
+const intervalID = setInterval(generateRandomCard, 5000);
